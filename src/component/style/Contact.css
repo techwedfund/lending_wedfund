@@ -1,0 +1,82 @@
+/* Contact Us Section Start */
+
+.contactSect{
+    margin-top: 5rem;
+}
+
+.contactForm{
+    margin-top: 6rem;
+}
+
+.contactH1{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.contactBtn{
+    border: none;
+    background-color: #6c0505;
+    color: #fff;
+}
+
+.contactBtn:hover{
+    border: none;
+    background-color: #4b0404;
+    color: #fff;
+}
+
+.contactIput{
+    width: 60%;
+}
+
+.form-control{
+    border-radius: 11px;
+    border: 2px solid #000;
+}
+
+input::placeholder{
+    color: #000;
+    padding: 10px;
+    font-family: Merriweather;
+    font-size: 14.889px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Contact Us Section end */
+
+@media only screen and (max-width: 300px) {
+    .contactIput {
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 767px) {
+    .contactImg{
+        margin-top: 2rem;
+    }
+    .contactForm {
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactIput {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1199px) {
+    .contactForm {
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+}

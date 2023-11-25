@@ -1,0 +1,483 @@
+.homeSec{
+    margin-top: 10rem;
+}
+
+.h1Home{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnHome{
+    background-color: #6c0505;
+    color: #fff;
+    width: 130px;
+    height: 45px;
+    padding-top: 15px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 13.586px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnHome:hover{
+    background-color: #4b0404;
+    color: #fff;
+}
+
+.btnHomeCeter{
+    margin-top: 2rem;
+}
+
+/* Hero section end */
+
+/* advantage section start */
+
+.advSection{
+    margin-top: 5rem;
+}
+
+.advCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 184px;
+    height: 88px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+
+#icon1{
+    width: 75px;
+    height: 83px;
+}
+
+#icon2{
+    width: 71x;
+    height: 63px;
+}
+
+#icon3{
+    width: 59px;
+    height: 59px;
+}
+
+#icon4{
+    width: 59px;
+    height: 60px;
+}
+
+.h1Adv{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.pAdv{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 13px 8px 0px 0px;
+}
+
+/* advantage section end */
+
+/* How it works Section Start */
+
+.howSection{
+    margin-top: 5rem;
+}
+
+.h1How{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.howBrder{
+    border-radius: 50%;
+    background-color: #6c0505;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 1rem;
+}
+
+.howImg{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+    margin-top: 0.9rem;
+}
+
+.howContent{
+    display: flex;
+    margin-top: 3rem;
+    width: 33.33%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textHow{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.alignBorderHow{
+    border-top: 1px dotted #6c0505;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: -1.3rem;
+    width: 37%;
+}
+
+.paraHow{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.brderHow{
+    position: relative;
+}
+
+#howIcon3{
+    margin-top: 2rem;
+}
+
+/* How it works Section end */
+
+/* About Section Start */
+
+.aboutSect{
+    margin-top: 5rem;
+}
+
+.h1About{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.aboutImg{
+    width: 393px;
+    height: 382px;
+}
+
+.paraAbout{
+    color: #000;
+    font-family: Merriweather;
+    font-size: 20px;
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.2%; /* 27.44px */
+    letter-spacing: -0.2px;
+}
+
+/* About Section end */
+
+/* Business section start */
+
+.businessSect{
+    margin-top: 5rem;
+}
+
+.businessH1{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.businessMrgn{
+    margin-top: 8rem;
+}
+
+.businessBtn{
+    border: none;
+    background-color: #6c0505;
+    color: #fff;
+}
+
+.businessBtn:hover{
+    border: none;
+    background-color: #4b0404;
+    color: #fff;
+}
+
+.paraBusiness{
+    color: #000;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.2%; /* 27.44px */
+    letter-spacing: -0.2px;
+}
+
+/* Business section end */
+
+/* Personal section start */
+
+.personalSect{
+    margin-top: 5rem;
+}
+
+.personalH1{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.personalMrgn{
+    margin-top: 8rem;
+}
+
+.personalBtn{
+    border: none;
+    background-color: #6c0505;
+    color: #fff;
+}
+
+.personalBtn:hover{
+    border: none;
+    background-color: #4b0404;
+    color: #fff;
+}
+
+.parapersonal{
+    color: #000;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.2%; /* 27.44px */
+    letter-spacing: -0.2px;
+}
+
+.personalImg{
+    margin-top: 2rem;
+}
+
+/* Personal section end */
+
+/* lending section start */
+
+.lendingSect{
+    margin-top: 5rem;
+}
+
+.lendingh1{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+#lendingImg1{
+    margin-top: 8rem;
+}
+
+#lendingImg2{
+    margin-top: 1rem;
+}
+
+/* lending section end */
+
+/* Contact Us Section Start */
+
+.contactSect{
+    margin-top: 5rem;
+}
+
+.contactForm{
+    margin-top: 6rem;
+}
+
+.contactH1{
+    color: #000;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%; /* 57.72px */
+}
+
+.contactBtn{
+    border: none;
+    background-color: #6c0505;
+    color: #fff;
+}
+
+.contactBtn:hover{
+    border: none;
+    background-color: #4b0404;
+    color: #fff;
+}
+
+.contactIput{
+    width: 60%;
+}
+
+.form-control{
+    border-radius: 11px;
+    border: 2px solid #000;
+}
+
+input::placeholder{
+    color: #000;
+    padding: 10px;
+    font-family: Merriweather;
+    font-size: 14.889px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Contact Us Section end */
+
+@media only screen and (max-width: 300px) {
+    .h1Home{
+        font-size: 48px;
+    }
+
+    .mx-4{
+        margin-left: 0.1rem;
+    }
+
+    .contactIput {
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 375px) {
+    .btnHome{
+        padding-top: 9px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #heroImg2{
+        display: none;
+    }
+    #heroImg1{
+        margin-top: 3rem;
+    }
+    .advCont{
+        margin-top: 1rem;
+    }
+    .businessImg{
+        margin-top: 2rem;
+    }
+    .personalImg{
+        margin-top: 2rem;
+    }
+    .contactImg{
+        margin-top: 2rem;
+    }
+    .contactForm {
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactIput {
+        width: 80%;
+    }    
+    #lendingImg1{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    #lendingImg2{
+        margin-bottom: 4rem;
+    }
+    #businessLoan{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+    }
+    .personalImg{
+        margin-top: 4rem;
+    }
+    .personalMrgn{
+        margin-top: 2rem;
+    }
+    .businessMrgn{
+        margin-top: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1199px) {
+    .advCont{
+        margin-top: 1rem;
+    }
+    .aboutImg{
+        margin-top: 3rem;
+    }
+    .businessMrgn{
+        margin-top: 2rem;
+    }
+    .businessImg{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .personalMrgn{
+        margin-top: 2rem;
+    }
+    .personalImg{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .contactForm {
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+}
