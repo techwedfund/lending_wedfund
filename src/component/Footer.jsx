@@ -20,10 +20,10 @@ function Footer(){
                                     <a href="/#howSection" onClick={() => window.scrollTo(0,0)} className='footer-item'>How it works</a>
                                 </li>
                                 <li className='nav-item'>
-                                    <a href="https://wed.fund" className='footer-item'>Business Loan</a>
+                                    <a href="https://wedfund-business.el.r.appspot.com" className='footer-item'>Business Loan</a>
                                 </li>
                                 <li className='nav-item'>
-                                    <a href="https://wedfundb2c.netlify.app/" className='footer-item'>Personal Loan</a>
+                                    <a href="https://wedfund-personal.el.r.appspot.com" className='footer-item'>Personal Loan</a>
                                 </li>
                             </ul>
                         </div>

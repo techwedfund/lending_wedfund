@@ -23,8 +23,8 @@ function Home() {
                     <h1 className='text-center h1Home'>Financial Emergency?</h1>
                     <h1 className='text-center h1Home' style={{color: "#6c0505"}}>We Understand</h1>
                     <div className='d-flex flex-row align-center justify-content-center btnHomeCeter'>
-                        <a href="https://wed.fund" footer-item className='btn btnHome px-4 mx-4'>Business Loan</a>
-                        <a href="https://wedfundb2c.netlify.app/" footer-item className='btn btnHome px-4 mx-4'>Personal Loan</a>
+                        <a href="https://wedfund-business.el.r.appspot.com" footer-item className='btn btnHome px-4 mx-4'>Business Loan</a>
+                        <a href="https://wedfund-personal.el.r.appspot.com" footer-item className='btn btnHome px-4 mx-4'>Personal Loan</a>
                     </div>
                     <div className="row">
                         <div className="col-md-6" id='heroImg1'>

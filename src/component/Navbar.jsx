@@ -23,10 +23,10 @@ function Navbar() {
                                 <a href="/#howSection" onClick={() => window.scrollTo(0,0)} className="nav-link px-5" rel="noopener noreferrer">How it works</a>
                             </li>
                             <li className="nav-item">
-                                <a href="https://wed.fund" footer-item className="nav-link px-5" rel="noopener noreferrer">Business Loan</a>
+                                <a href="https://wedfund-business.el.r.appspot.com" footer-item className="nav-link px-5" rel="noopener noreferrer">Business Loan</a>
                             </li>
                             <li className="nav-item">
-                                <a href="https://wedfundb2c.netlify.app/" className="nav-link px-5" rel="noopener noreferrer">Personal Loan</a>
+                                <a href="https://wedfund-personal.el.r.appspot.com" className="nav-link px-5" rel="noopener noreferrer">Personal Loan</a>
                             </li>
                         </ul>
                     </div>
