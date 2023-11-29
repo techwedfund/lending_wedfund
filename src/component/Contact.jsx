@@ -38,8 +38,8 @@ function Contact() {
             Emailjs.sendForm(
             process.env.REACT_APP_EMAILJS_SERVICEID,
             process.env.REACT_APP_EMAILJS_TEMPLATEID,
+            process.env.REACT_APP_EMAILJS_PUBLICKEY,
             formData.current,
-            process.env.REACT_APP_EMAILJS_PUBLICKEY
         )
         .then((res) => {
             setShowAlert(true)
